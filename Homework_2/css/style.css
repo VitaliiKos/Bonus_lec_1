@@ -1,0 +1,74 @@
+
+html {
+    background-color: silver;
+    width: 70%;
+    margin: 1.5em auto 1.1em;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    clear: both
+}
+
+.title {
+    font-size: 60px;
+    font-family: Brush Script MT, cursive;
+    color: #380707;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: gold;
+}
+
+a:active {
+    text-decoration: none;
+    background: chartreuse;
+}
+
+.main_image {
+    display: block;
+    margin: 0 auto;
+}
+
+.contents {
+    font-family: Snell Roundhand, cursive;
+}
+
+.line_top {
+    background-color: saddlebrown;
+    height: 5px;
+}
+
+.line {
+    background-color: #e16d1a;
+    height: 3px;
+}
+
+.subtitle {
+    font-family: cursive;
+    color: #542a07;
+}
+
