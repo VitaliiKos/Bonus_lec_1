@@ -4,32 +4,65 @@ html {
     background-color: silver;
 }
 
-body {
-}
-
-h1, h2, h3 {
+.main_title, .title_h2, .title_h3 {
     font-family: Arial, sans-serif;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-h2 {
-    font-size: 26px;
 }
 
 h3, h1, h2 {
     clear: both
 }
 
+.main_title {
+    font-size: 26px;
+}
+
+.title_h2 {
+    font-size: 20px;
+}
+
+.main_title, .title_h2 {
+    box-shadow: 0 2px 0 aliceblue;
+    border-bottom: 2px solid dimgray;
+    text-align: center;
+}
+
+.main_topic, .topic {
+    text-align: justify;
+    box-shadow: 0 2px 0 aliceblue;
+    border-bottom: 2px solid dimgray;
+}
+
+.topic {
+    min-height: 200px;
+    padding-bottom: 20px;
+
+}
+
+.img_text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.text_gallery {
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+
 p {
     font-size: 1.1em;
 }
 
-hr {
-    height: 1px;
-    background-color: dimgray;
+.quote {
+    color: navy;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    padding-left: 10px;
+    border-left: 2px solid dimgray;
+
+}
+
+#Content {
+    padding-bottom: 30px;
 }
 
 #Content ol {
@@ -39,16 +72,13 @@ hr {
     padding-left: 40px;
     border: 1px;
 }
-
 #Content a:link {
     text-decoration: none;
     color: #000
 }
-
 #Content a:visited {
     text-decoration: none;
 }
-
 #Content a:hover {
     text-decoration: underline;
 }
@@ -57,49 +87,10 @@ hr {
     text-decoration: underline;
 }
 
-
-#houston {
-    text-align: justify
-}
-
-.weather {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border: 1px solid black;
-    width: auto;
-}
-
-.weather td, .weather th {
-    border: 1px solid black;
-    padding: 8px;
-}
-
-.weather td:hover {
-    background-color: #ffa905;
-}
-
-.weather th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: white;
-    color: black;
-}
-
-div.gallery {
+.gallery {
     float: right;
     padding-right: 30px;
     margin-left: 60px
-}
-
-div.img_text {
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-div.topic {
-    text-align: justify;
-    min-height: 200px;
-
 }
 
 .container {
@@ -119,19 +110,15 @@ div.topic {
     font-size: 30px;
 }
 
+/*---------------geolocation-------------*/
+
 .geolocation {
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*border: 1px solid #542a07;*/
     min-width: 152px;
     width: 100%;
-    /*min-height: 152px;*/
     margin: 20px;
     padding: 20px;
     justify-content: center;
-    /*text-align: center;*/
-    /*line-height: 75px;*/
-    /*font-size: 30px;*/
 }
 
 /*---------app_store, google_play----------*/
@@ -139,11 +126,9 @@ div.topic {
 .download_an_app {
     width: 100%;
     display: flex;
-    /*flex-direction: row;*/
     border-bottom: 1.5px solid green;
     align-items: center;
     justify-content: center;
-    /*align-content: space-around;*/
     margin: 0 50px 0 50px;
 
 }
