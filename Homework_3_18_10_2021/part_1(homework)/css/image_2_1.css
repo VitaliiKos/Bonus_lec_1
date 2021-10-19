@@ -1,0 +1,54 @@
+html {
+    width: 70%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid maroon;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: antiquewhite;
+
+}
+
+.menu {
+    align-self: end;
+    background: aliceblue;
+    flex-grow: 30;
+    height: 600px;
+}
+
+.container_post {
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 600px;
+
+    flex-direction: column-reverse;
+    display: flex;
+    flex-grow: 70;
+
+}
+
+.post {
+    background: bisque;
+    flex-grow: 60;
+
+}
+
+.footer {
+    background: bisque;
+    width: 100%;
+    height: 100px;
+}
