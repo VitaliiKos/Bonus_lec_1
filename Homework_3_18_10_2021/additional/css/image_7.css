@@ -1,0 +1,127 @@
+html {
+    width: 70%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    background: #d0f1e7;
+    display: flex;
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid maroon;
+    color: yellow;
+
+}
+
+.header {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #3232af;
+    flex-basis: 100%;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-basis: 100%;
+    height: auto;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 3;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+.hero {
+    height: 120px;
+    width: 100%;
+    background: #d2b0e7;
+}
+
+.sidebar {
+    height: 200px;
+    width: 100%;
+    background: #799b63;
+}
+
+.right_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 5;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+.main_content {
+    width: 100%;
+    height: 240px;
+    background: #e5aa3b;
+}
+
+.extra_content {
+    height: 80px;
+    width: 100%;
+    background: #999a97;
+}
+
+.side {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-basis: 100%;
+    height: 80px;
+}
+
+.related_image {
+    height: 100%;
+    flex-grow: 8;
+    background: #54bb65;
+}
+
+.related_post {
+    flex-grow: 2;
+    height: 100%;
+    background: #f696e6;
+
+}
+
+.footer {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: #eea520;
+    flex-basis: 100%;
+    height: 50px;
+    padding: 10px;
+}
