@@ -1,0 +1,55 @@
+
+html {
+    width: 60%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid maroon;
+    color: yellow;
+}
+
+.flex_element_A {
+    background: #9f7070;
+    flex-basis: 100%;
+    height: 150px;
+}
+
+.group {
+    flex-grow: 7;
+    height: 250px;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.flex_element_B {
+    background: #e1bb02;
+}
+
+.group_element_value {
+    height: 50%;
+    flex-basis: 32%;
+    background: #dc3f3f;
+}
+
+.flex_element_H {
+    background: #c151de;
+}
+
+/*___________optimization__________*/
+.item_width_grow {
+    flex-grow: 3;
+}
+
+.display_flex {
+    display: flex;
+    column-gap: 2px;
+    row-gap: 2px;
+    flex-wrap: wrap;
+}
+

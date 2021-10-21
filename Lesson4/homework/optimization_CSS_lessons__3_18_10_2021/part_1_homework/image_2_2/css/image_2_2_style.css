@@ -1,0 +1,42 @@
+
+html {
+    width: 60%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid maroon;
+    color: yellow;
+}
+
+.widgets {
+    height: 150px;
+}
+
+.big_widgets {
+    align-self: end;
+    flex-grow: 30;
+}
+
+.color_navy {
+    background: navy;
+}
+
+.color_blue {
+    background: blue;
+}
+
+.height300px {
+    height: 300px;
+}
+
+.width100 {
+    width: 100%;
+}

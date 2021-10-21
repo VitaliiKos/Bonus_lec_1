@@ -1,0 +1,55 @@
+html {
+    width: 70%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid maroon;
+}
+
+.header {
+    background: antiquewhite;
+}
+
+.menu {
+    align-self: end;
+    background: aliceblue;
+    flex-grow: 30;
+}
+
+.container_post {
+    flex-direction: column-reverse;
+    flex-grow: 70;
+}
+
+.post {
+    background: bisque;
+    flex-grow: 60;
+}
+
+.footer {
+    background: bisque;
+}
+
+/*______________optimization_____________*/
+.with100 {
+    width: 100%;
+}
+
+.height100px {
+    height: 100px;
+}
+
+.height600px {
+    height: 600px;
+}
+
+.display_flex {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}

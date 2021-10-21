@@ -1,0 +1,55 @@
+
+html {
+    width: 60%;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    column-gap: 1px;
+    row-gap: 1px;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid maroon;
+    color: yellow;
+}
+
+.header {
+    height: 150px;
+    background: #001a93;
+}
+
+.nav {
+    height: 120px;
+    background: #000b57;
+}
+
+.main {
+    flex-grow: 70;
+    background: #167898;
+}
+
+.aside {
+    flex-grow: 30;
+    background: #0d3981;
+}
+
+.footer {
+    width: 100%;
+    background: #68c1c4;
+}
+
+/*______________optimization_____________*/
+.height300px {
+    height: 300px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.element_position {
+    align-self: end;
+}
