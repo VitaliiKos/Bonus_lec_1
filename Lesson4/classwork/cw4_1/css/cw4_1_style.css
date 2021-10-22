@@ -1,0 +1,151 @@
+
+html {
+    width: 90%;
+    height: auto;
+    margin: 1.5em auto 1.1em;
+    background-color: silver;
+}
+
+.container {
+    flex-basis: 100%;
+    padding: 0;
+    border: 2px solid #53535b;
+    color: yellow;
+}
+
+/*______________optimization_start____________*/
+
+.display_flex_row_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.display_flex_row_nowrap {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: nowrap;
+}
+
+.height_auto {
+    height: auto;
+}
+
+.element_position_justify_content_center {
+    justify-content: center;
+}
+
+/*______________optimization_end____________*/
+
+
+/*!*--------------------title--------------------*!*/
+.title_item {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    column-gap: 2px;
+    row-gap: 2px;
+    flex-wrap: wrap;
+}
+
+.title {
+    padding: 3px;
+    width: 80%;
+}
+
+#top_title {
+    width: 30%;
+}
+
+.title_left {
+    flex-grow: 6;
+}
+
+.title_right {
+    flex-grow: 2;
+}
+
+.title_left > h3, .title_right > h3 {
+    padding: 2px;
+    margin: 5px;
+    background: #010c3f;
+    border-radius: 15px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*!*--------------------top--------------------*!*/
+.top_items {
+    background: silver;
+    border: 3px solid #4a90b4;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 15px 35px 15px;
+    display: flex;
+    column-gap: 25px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.square_item {
+    width: 22%;
+    text-align: center;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.square {
+    background: #010c3f;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 15px;
+}
+
+/*------------------bottom----------------*/
+.bottom_items {
+    padding: 15px;
+    background: #010c3f;
+    flex-basis: 100%;
+    justify-content: space-around;
+    display: flex;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.person_info {
+    flex-grow: 1;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.person_image {
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 50%;
+}
+
+.person_image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.person_image_text {
+    width: 60%;
+}
+
+.person_image_text h3 {
+    background-color: #8d8d9d;
+}
+
+.person_info:hover {
+    border: 2px solid #8d8d9d;
+}
