@@ -1,0 +1,258 @@
+@media screen and (max-width: 1200px) {
+
+    .head__menu, .logo__menu, .logo {
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .logo {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 30px;
+    }
+
+    .logo__menu > div {
+        width: 35%;
+        height: 50%;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .logo_image {
+        align-items: center;
+    }
+
+    .logo_image img {
+        width: 190px;
+        height: 110px;
+    }
+
+    .description_text {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .square_item {
+        width: 45%;
+    }
+
+    .square_image img {
+        padding: 10px;
+        flex-grow: 1;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .top_items, .biography {
+        justify-content: center;
+    }
+
+    .square_image img {
+        border-radius: 25px;
+    }
+
+    .person_info {
+        width: 45%;
+        flex-wrap: wrap;
+    }
+
+    .person_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .person_image_text {
+        width: 100%;
+    }
+
+    .person {
+        width: 45%;
+    }
+
+    .article {
+        row-gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article__item_left {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .article__item_right {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .head__menu, .logo__menu, .logo {
+        justify-content: space-around;
+    }
+
+    .logo {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo__menu > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo_image {
+        align-items: center;
+    }
+
+    .logo_image img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .description_text {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .square_item {
+        width: auto;
+    }
+
+    .square_image img {
+        padding: 10px;
+        flex-grow: 1;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .top_items, .biography {
+        justify-content: center;
+    }
+
+    .square_image img {
+        border-radius: 25px;
+    }
+
+    .person_info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .person_image img {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .person_image_text {
+        width: 100%;
+    }
+
+    .person {
+        width: 100%;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0;
+    }
+
+    .article__item_left {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .article__item_right {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .head__menu, .logo__menu, .logo {
+        justify-content: space-around;
+    }
+
+    .logo {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .logo__menu > div {
+        width: 75%;
+        text-align: center;
+    }
+
+    .logo_image {
+        align-items: center;
+    }
+
+    .logo_image img {
+        width: 150px;
+        height: 80px;
+    }
+
+    .description_text {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .square_item {
+        width: 45%;
+    }
+
+    .square_image img {
+        padding: 10px;
+        flex-grow: 1;
+        max-width: 170px;
+        max-height: 170px;
+    }
+
+    .top_items, .biography {
+        justify-content: center;
+    }
+
+    .square_image img {
+        border-radius: 25px;
+    }
+
+    .person_info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .person_image img {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .person_image_text {
+        width: 100%;
+    }
+
+    .person {
+        width: 100%;
+    }
+
+    .article {
+        row-gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article__item_left {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .article__item_right {
+        padding: 30px;
+    }
+
+
+}
+
