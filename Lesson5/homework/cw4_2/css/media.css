@@ -117,7 +117,7 @@
     }
 
     .square_item {
-        width: auto;
+        width: 45%;
     }
 
     .square_image img {
@@ -201,7 +201,7 @@
     }
 
     .square_item {
-        width: 45%;
+        width: auto;
     }
 
     .square_image img {
