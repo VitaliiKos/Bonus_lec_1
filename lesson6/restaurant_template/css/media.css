@@ -1,0 +1,149 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__contact {
+        flex-direction: column;
+        row-gap: 5px;
+        margin-top: 25px;
+    }
+
+    .nav {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .header__logo img {
+        width: 50px;
+        padding: 20px 14px;
+    }
+
+    .wrapper, container {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+        position: relative;
+        margin: 0;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+        padding: 26px 17px;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
+
+    .header__phone {
+        border: none;
+    }
+
+    .wrapper {
+        padding: 0;
+        max-width: 375px;
+    }
+
+    .header__introduction {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history {
+        margin-top: 950px;
+    }
+
+    .history h2 {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .header {
+        height: 880px;
+    }
+
+    .history__content {
+        padding: 20px;
+        height: auto;
+    }
+
+    .history__menu {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .history_photo {
+        max-width: 330px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .history_item_iphone {
+        display: block;
+    }
+
+    .history_item {
+        display: none;
+    }
+
+    .history__footer {
+        display: flex;
+        margin-top: 85px;
+        flex-direction: column;
+        column-gap: 23px;
+        row-gap: 23px;
+        height: auto;
+    }
+
+    .history__footer_text {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+    .history__footer_text h3 {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .history__footer_text p {
+        text-align: center;
+        padding: 20px 15px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .history__footer_button {
+        width: auto;
+        padding: 15px;
+    }
+
+    .intro {
+        top: 280px;
+    }
+}
