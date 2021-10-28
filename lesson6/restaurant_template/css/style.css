@@ -256,6 +256,7 @@ table {
     display: flex;
     flex-wrap: wrap;
     height: 978px;
+    justify-content: center;
     margin-top: 250px;
     column-gap: 10px;
 }
@@ -268,9 +269,9 @@ table {
     padding-left: 86px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 444px;
+    width: 40%;
     height: 426px;
     row-gap: 10px;
     column-gap: 10px;
@@ -321,44 +322,46 @@ table {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    width: 539px;
+    justify-content: center;
+    width: 40%;
     height: 498px;
     margin: 0 auto;
 }
 
-.history_item {
-    position: relative;
-    width: auto;
-    height: auto;
-}
+/*.history_item {*/
+/*    position: relative;*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*}*/
+
 
 .history_item_iphone {
     display: none;
 }
 
-.z-i_4 {
-    left: 310px;
-    top: 180px;
-    z-index: 4;
-}
+/*.z-i_4 {*/
+/*    left: 310px;*/
+/*    top: 180px;*/
+/*    z-index: 4;*/
+/*}*/
 
-.z-i_3 {
-    right: 235px;
-    top: 55px;
-    z-index: 3;
-}
+/*.z-i_3 {*/
+/*    right: 235px;*/
+/*    top: 55px;*/
+/*    z-index: 3;*/
+/*}*/
 
-.z-i_2 {
-    left: 200px;
-    bottom: 345px;
-    z-index: 2;
-}
+/*.z-i_2 {*/
+/*    left: 200px;*/
+/*    bottom: 345px;*/
+/*    z-index: 2;*/
+/*}*/
 
-.z-i_1 {
-    left: 30px;
-    bottom: 330px;
-    z-index: 1;
-}
+/*.z-i_1 {*/
+/*    left: 30px;*/
+/*    bottom: 330px;*/
+/*    z-index: 1;*/
+/*}*/
 
 .history__footer {
     margin-top: 85px;

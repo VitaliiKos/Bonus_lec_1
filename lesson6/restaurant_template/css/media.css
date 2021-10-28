@@ -85,6 +85,7 @@
     .history__content {
         padding: 20px;
         height: auto;
+        width: 100%;
     }
 
     .history__menu {
@@ -93,7 +94,7 @@
     }
 
     .history_photo {
-        max-width: 330px;
+        max-width: 100%;
         height: auto;
         padding: 10px;
     }
@@ -103,6 +104,10 @@
     }
 
     .history_item {
+        display: none;
+    }
+
+    .history_main_image {
         display: none;
     }
 
