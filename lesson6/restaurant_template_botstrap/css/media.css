@@ -28,7 +28,7 @@
         padding: 20px 14px;
     }
 
-    .wrapper, container {
+    .wrapper {
         padding: 0 10px;
     }
 
@@ -159,4 +159,11 @@
     .intro {
         top: -200px;
     }
+}
+
+@media screen and (max-width: 1390px) {
+    .history {
+        margin-top: 950px;
+    }
+
 }
