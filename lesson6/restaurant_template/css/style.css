@@ -328,16 +328,16 @@ table {
     margin: 0 auto;
 }
 
+.history_item_iphone {
+    display: none;
+}
+
+
 /*.history_item {*/
 /*    position: relative;*/
 /*    width: auto;*/
 /*    height: auto;*/
 /*}*/
-
-
-.history_item_iphone {
-    display: none;
-}
 
 /*.z-i_4 {*/
 /*    left: 310px;*/
@@ -362,6 +362,7 @@ table {
 /*    bottom: 330px;*/
 /*    z-index: 1;*/
 /*}*/
+
 
 .history__footer {
     margin-top: 85px;
