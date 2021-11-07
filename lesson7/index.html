@@ -26,6 +26,7 @@
                                 Ваш город: Москва
                                 <!--                    ///////////////////////////////////-->
 
+
                                 <!--                    ///////////////////////////////////////////-->
 
 
@@ -250,13 +251,130 @@
                 <nav class="navbar navbar-light ">
                     <div class="container-fluid">
                         <form class="d-flex">
-                            <input aria-label="Search" class="form-control"
+                            <input aria-label="Search" class="form-control" data-bs-target="#exampleModal5"
+                                   data-bs-toggle="modal"
                                    placeholder="Поиск по наименованию или артикулу"
                                    type="search">
+
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="exampleModalLabel5" class="modal fade"
+                                 id="exampleModal5"
+                                 tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel5">Найденные трансмиссии:</h5>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="list-group">
+                                                <a class="list-group-item list-group-item-secondary" href="#">6eT40</a>
+                                                <a class="list-group-item list-group-item-action" href="#">6eT40</a>
+                                                <a class="list-group-item list-group-item-action" href="#">6eT40</a>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Найденные товары:</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="list-group">
+                                                <a class="list-group-item list-group-item-action" href="#">Насос -
+                                                    Артикул / 43233</a>
+                                                <a class="list-group-item list-group-item-action" href="#"></a>
+                                                <a class="list-group-item list-group-item-action" href="#">Соленоид -
+                                                    Артикул / 4493934-22</a>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!--                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                            <!--                                            <button class="btn btn-primary" style="width: 100%;" type="button">Заказать-->
+                                            <!--                                                звонок-->
+                                            <!--                                            </button>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <button class="btn btn-primary btn__text" type="submit"> Найти</button>
                             <button class="btn btn-primary btn__image" type="submit"><img alt="" src="img/search_1.png">
                             </button>
                         </form>
+
+                        <!--                        /////////////////////////////////////////-->
+                        <!--                        <button class="btn btn-link" data-bs-target="#exampleModal5" data-bs-toggle="modal"-->
+                        <!--                                type="button">-->
+                        <!--                            <input aria-label="Search" class="form-control"-->
+                        <!--                                   placeholder="Поиск по наименованию или артикулу"-->
+                        <!--                                   type="search">-->
+                        <!--                        </button>-->
+
+                        <!--                        &lt;!&ndash; Modal &ndash;&gt;-->
+                        <!--                        <div aria-hidden="true" aria-labelledby="exampleModalLabel5" class="modal fade" id="exampleModal5"-->
+                        <!--                             tabindex="-1">-->
+                        <!--                            <div class="modal-dialog">-->
+                        <!--                                <div class="modal-content">-->
+                        <!--                                    <div class="modal-header">-->
+                        <!--                                        <h5 class="modal-title" id="exampleModalLabel5">Заказать звонок</h5>-->
+                        <!--                                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"-->
+                        <!--                                                type="button"></button>-->
+                        <!--                                    </div>-->
+                        <!--                                    <div class="modal-body">-->
+                        <!--                                        <input aria-label="Search" class="form-control" placeholder="Ваше имя"-->
+                        <!--                                               type="search">-->
+                        <!--                                        <div class="your_phone">Номер телефона</div>-->
+
+                        <!--                                        <div class="select__city">-->
+                        <!--                                            <div class="dropdown">-->
+                        <!--                                                <button aria-expanded="false" class="btn btn-secondary dropdown-toggle"-->
+                        <!--                                                        data-bs-toggle="dropdown" id="dropdownMenu5" type="button">-->
+                        <!--                                                    <div class="country_flag"><img alt="" src="img/Rus.png"></div>-->
+                        <!--                                                </button>-->
+                        <!--                                                <ul aria-labelledby="dropdownMenu5" class="dropdown-menu">-->
+                        <!--                                                    <li>-->
+                        <!--                                                        <button class="dropdown-item" type="button">-->
+                        <!--                                                            <div class="country_flag"><img alt="" src="img/Rus.png">-->
+                        <!--                                                            </div>-->
+                        <!--                                                        </button>-->
+                        <!--                                                    </li>-->
+                        <!--                                                    <li>-->
+                        <!--                                                        <button class="dropdown-item" type="button">-->
+                        <!--                                                            <div class="country_flag"><img alt="" src="img/Rus.png">-->
+                        <!--                                                            </div>-->
+                        <!--                                                        </button>-->
+                        <!--                                                    </li>-->
+                        <!--                                                    <li>-->
+                        <!--                                                        <button class="dropdown-item" type="button">-->
+                        <!--                                                            <div class="country_flag"><img alt="" src="img/Rus.png">-->
+                        <!--                                                            </div>-->
+                        <!--                                                        </button>-->
+                        <!--                                                    </li>-->
+                        <!--                                                </ul>-->
+                        <!--                                            </div>-->
+                        <!--                                            <input aria-label="Search" class="form-control"-->
+                        <!--                                                   placeholder="+7 (999) 999-99-99" type="tel">-->
+                        <!--                                        </div>-->
+
+                        <!--                                    </div>-->
+                        <!--                                    <div class="modal-footer">-->
+                        <!--                                        &lt;!&ndash;                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>&ndash;&gt;-->
+                        <!--                                        <button class="btn btn-primary" style="width: 100%;" type="button">Заказать-->
+                        <!--                                            звонок-->
+                        <!--                                        </button>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+
+
+                        <!--                        /////////////////////////////////////////-->
+
+
                     </div>
                 </nav>
             </div>
@@ -413,9 +531,32 @@
                                         <h3>4 430₽</h3>
                                         <h4>5 430₽</h4>
                                     </div>
-                                    <button class="btn btn-primary d-flex flex-nowrap " type="submit">
+                                    <!--                                    ////////////////////////////////////////////-->
+                                    <button aria-controls="offcanvasBottom" class="btn btn-primary d-flex flex-nowrap"
+                                            data-bs-target="#offcanvasBottom" data-bs-toggle="offcanvas" type="button">
                                         <span class="image-center"><img alt="" src="img/slide/cart_1.svg"></span>
                                     </button>
+
+                                    <div aria-labelledby="offcanvasBottomLabel" class="offcanvas offcanvas-bottom"
+                                         id="offcanvasBottom" tabindex="-1">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Ваша корзина</h5>
+                                            <button aria-label="Close" class="btn-close text-reset"
+                                                    data-bs-dismiss="offcanvas" type="button"></button>
+                                        </div>
+                                        <div class="offcanvas-body small">
+                                            <div class="offcanvas_content">
+                                                <div><img alt="ring" src="img/slide/ring.png"></div>
+                                                <div class="offcanvas_content_text">
+                                                    <h2>Товар добавлен в корзину</h2>
+                                                    <h4>Intermediate accumelator sleeve</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--                                    ////////////////////////////////////////////-->
+
+
                                 </div>
                             </div>
                         </div>
@@ -437,9 +578,33 @@
                                         <h3>4 430₽</h3>
                                         <h4>5 430₽</h4>
                                     </div>
-                                    <button class="btn btn-primary d-flex flex-nowrap " type="submit">
+                                    <!--                                    <button class="btn btn-primary d-flex flex-nowrap " type="submit">-->
+                                    <!--                                        <span class="image-center"><img alt="" src="img/slide/cart_1.svg"></span>-->
+                                    <!--                                    </button>-->
+                                    <button aria-controls="offcanvasBottom" class="btn btn-primary d-flex flex-nowrap"
+                                            data-bs-target="#offcanvasBottom2" data-bs-toggle="offcanvas" type="button">
                                         <span class="image-center"><img alt="" src="img/slide/cart_1.svg"></span>
                                     </button>
+
+                                    <div aria-labelledby="offcanvasBottomLabel2" class="offcanvas offcanvas-bottom"
+                                         id="offcanvasBottom2" tabindex="-1">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasBottomLabel2">Ваша корзина</h5>
+                                            <button aria-label="Close" class="btn-close text-reset"
+                                                    data-bs-dismiss="offcanvas" type="button"></button>
+                                        </div>
+                                        <div class="offcanvas-body small">
+                                            <div class="offcanvas_content">
+                                                <div><img alt="ring" src="img/slide/disc.png"></div>
+                                                <div class="offcanvas_content_text">
+                                                    <h2>Товар добавлен в корзину</h2>
+                                                    <h4>Intermediate accumelator sleeve</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
